@@ -1,18 +1,19 @@
 //
-//  BookVC.swift
+//  PhotoVC.swift
 //  Tabbar
 //
-//  Created by wanglei on 2019/4/22.
+//  Created by boyka on 2019/4/23.
 //  Copyright © 2019年 王磊. All rights reserved.
 //
 
 import UIKit
 
-class BookVC: UIViewController {
+class PhotoVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-self.view.backgroundColor = UIColor.yellow
+
+        self.view.backgroundColor = UIColor.green
         // Do any additional setup after loading the view.
     }
     

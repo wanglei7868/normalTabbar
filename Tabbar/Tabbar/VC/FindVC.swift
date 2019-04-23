@@ -12,7 +12,7 @@ class FindVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+self.view.backgroundColor = UIColor.gray
         // Do any additional setup after loading the view.
     }
     

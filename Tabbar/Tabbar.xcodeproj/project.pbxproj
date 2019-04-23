@@ -12,12 +12,14 @@
 		9B3E8255226E0A7700D0B8C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3E8253226E0A7700D0B8C5 /* Main.storyboard */; };
 		9B3E8257226E0A7800D0B8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B3E8256226E0A7800D0B8C5 /* Assets.xcassets */; };
 		9B3E825A226E0A7800D0B8C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3E8258226E0A7800D0B8C5 /* LaunchScreen.storyboard */; };
-		9B3E8262226E0AB400D0B8C5 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3E8261226E0AB400D0B8C5 /* MainTabbarController.swift */; };
 		9B3E8267226E0E6600D0B8C5 /* UpdateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3E8266226E0E6600D0B8C5 /* UpdateVC.swift */; };
 		9B3E8269226E0E7D00D0B8C5 /* FindVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3E8268226E0E7D00D0B8C5 /* FindVC.swift */; };
 		9B3E826B226E0E9700D0B8C5 /* BookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3E826A226E0E9700D0B8C5 /* BookVC.swift */; };
 		9B3E826D226E0EAA00D0B8C5 /* MineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3E826C226E0EAA00D0B8C5 /* MineVC.swift */; };
-		9B3E826F226E0F1300D0B8C5 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3E826E226E0F1300D0B8C5 /* MainNavigationController.swift */; };
+		A54B149C226EECCC00393BAD /* PhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B149B226EECCC00393BAD /* PhotoVC.swift */; };
+		A54B14A1226EF0AB00393BAD /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B149F226EF0AA00393BAD /* MainNavigationController.swift */; };
+		A54B14A2226EF0AB00393BAD /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B14A0226EF0AA00393BAD /* MainTabbarController.swift */; };
+		A54B14A4226EF0DC00393BAD /* Maintabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B14A3226EF0DC00393BAD /* Maintabbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +30,14 @@
 		9B3E8256226E0A7800D0B8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B3E8259226E0A7800D0B8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B3E825B226E0A7800D0B8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B3E8261226E0AB400D0B8C5 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
 		9B3E8266226E0E6600D0B8C5 /* UpdateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateVC.swift; sourceTree = "<group>"; };
 		9B3E8268226E0E7D00D0B8C5 /* FindVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindVC.swift; sourceTree = "<group>"; };
 		9B3E826A226E0E9700D0B8C5 /* BookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVC.swift; sourceTree = "<group>"; };
 		9B3E826C226E0EAA00D0B8C5 /* MineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineVC.swift; sourceTree = "<group>"; };
-		9B3E826E226E0F1300D0B8C5 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		A54B149B226EECCC00393BAD /* PhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVC.swift; sourceTree = "<group>"; };
+		A54B149F226EF0AA00393BAD /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		A54B14A0226EF0AA00393BAD /* MainTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		A54B14A3226EF0DC00393BAD /* Maintabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maintabbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 		9B3E824E226E0A7700D0B8C5 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				A54B149E226EF0AA00393BAD /* Main */,
+				A54B149D226EF08700393BAD /* Tabbar */,
 				9B3E8265226E0E6600D0B8C5 /* VC */,
 				9B3E824F226E0A7700D0B8C5 /* AppDelegate.swift */,
 				9B3E8251226E0A7700D0B8C5 /* ViewController.swift */,
@@ -73,8 +79,6 @@
 				9B3E8256226E0A7800D0B8C5 /* Assets.xcassets */,
 				9B3E8258226E0A7800D0B8C5 /* LaunchScreen.storyboard */,
 				9B3E825B226E0A7800D0B8C5 /* Info.plist */,
-				9B3E8261226E0AB400D0B8C5 /* MainTabbarController.swift */,
-				9B3E826E226E0F1300D0B8C5 /* MainNavigationController.swift */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -86,8 +90,26 @@
 				9B3E8268226E0E7D00D0B8C5 /* FindVC.swift */,
 				9B3E826A226E0E9700D0B8C5 /* BookVC.swift */,
 				9B3E826C226E0EAA00D0B8C5 /* MineVC.swift */,
+				A54B149B226EECCC00393BAD /* PhotoVC.swift */,
 			);
 			path = VC;
+			sourceTree = "<group>";
+		};
+		A54B149D226EF08700393BAD /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				A54B14A3226EF0DC00393BAD /* Maintabbar.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		A54B149E226EF0AA00393BAD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A54B149F226EF0AA00393BAD /* MainNavigationController.swift */,
+				A54B14A0226EF0AA00393BAD /* MainTabbarController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,12 +185,14 @@
 			files = (
 				9B3E8252226E0A7700D0B8C5 /* ViewController.swift in Sources */,
 				9B3E826B226E0E9700D0B8C5 /* BookVC.swift in Sources */,
-				9B3E826F226E0F1300D0B8C5 /* MainNavigationController.swift in Sources */,
+				A54B14A1226EF0AB00393BAD /* MainNavigationController.swift in Sources */,
 				9B3E8269226E0E7D00D0B8C5 /* FindVC.swift in Sources */,
 				9B3E826D226E0EAA00D0B8C5 /* MineVC.swift in Sources */,
+				A54B14A2226EF0AB00393BAD /* MainTabbarController.swift in Sources */,
 				9B3E8267226E0E6600D0B8C5 /* UpdateVC.swift in Sources */,
 				9B3E8250226E0A7700D0B8C5 /* AppDelegate.swift in Sources */,
-				9B3E8262226E0AB400D0B8C5 /* MainTabbarController.swift in Sources */,
+				A54B14A4226EF0DC00393BAD /* Maintabbar.swift in Sources */,
+				A54B149C226EECCC00393BAD /* PhotoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +339,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MUPM8Y7UB;
 				INFOPLIST_FILE = Tabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +358,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MUPM8Y7UB;
 				INFOPLIST_FILE = Tabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
